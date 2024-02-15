@@ -29,6 +29,7 @@ header {
   width: 350px;
   justify-content: space-evenly;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .ihover {
@@ -134,11 +135,6 @@ header {
   background-color: white;
 }
 
-.sectionper {
-  width: 65vw;
-  margin: auto;
-}
-
 .heading-line {
   display: flex;
   align-items: center;
@@ -169,6 +165,17 @@ header {
     margin-top: 5rem;
     width: 90%;
     justify-content: flex-start;
+  }
+}
+/* sections */
+.sectionper {
+  width: 65vw;
+  margin: auto;
+}
+
+@media (max-width:560px) {
+  .sectionper {
+    width: 90%;
   }
 }
 
@@ -477,10 +484,20 @@ header {
 }
 
 /* about us section  */
+.section7 {
+  margin-top: 1rem;
+}
+
 .about-content {
   margin: 1rem;
   font-size: 1rem;
   line-height: 1.5;
+}
+@media (max-width:560px) {
+  .about-content {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
 }
 
 
